@@ -35,7 +35,7 @@ It is recommended to fetch the latest [MiDaS repo](https://github.com/isl-org/Mi
 ```python
 import torch
 
-torch.hub.help("intel-isl/MiDaS", "DPT_BEiT_L_384", force_reload=True)  # Triggers fresh download of MiDaS repo
+torch.hub.help("aroop/MiDaS", "DPT_BEiT_L_384", force_reload=True)  # Triggers fresh download of MiDaS repo
 ```
 ### **ZoeDepth models** <!-- omit in toc -->
 ### Using torch hub

@@ -34,7 +34,7 @@ def ZoeD_N(pretrained=False, midas_model_type="DPT_BEiT_L_384", config_mode="inf
     """Zoe_M12_N model. This is the version of ZoeDepth that has a single metric head
     Args:
         pretrained (bool): If True, returns a model pre-trained on NYU-Depth-V2
-        midas_model_type (str): Midas model type. Should be one of the models as listed in torch.hub.list("intel-isl/MiDaS"). Default: DPT_BEiT_L_384
+        midas_model_type (str): Midas model type. Should be one of the models as listed in torch.hub.list("aroop/MiDaS"). Default: DPT_BEiT_L_384
         config_mode (str): Config mode. Should be one of "infer", "train" or "eval". Default: "infer"
     
     Keyword Args:
@@ -74,7 +74,7 @@ def ZoeD_K(pretrained=False, midas_model_type="DPT_BEiT_L_384", config_mode="inf
     """Zoe_M12_K model. This is the version of ZoeDepth that has a single metric head
     Args:
         pretrained (bool): If True, returns a model pre-trained on NYU-Depth-V2
-        midas_model_type (str): Midas model type. Should be one of the models as listed in torch.hub.list("intel-isl/MiDaS"). Default: DPT_BEiT_L_384
+        midas_model_type (str): Midas model type. Should be one of the models as listed in torch.hub.list("aroop/MiDaS"). Default: DPT_BEiT_L_384
         config_mode (str): Config mode. Should be one of "infer", "train" or "eval". Default: "infer"
     
     Keyword Args:
@@ -115,7 +115,7 @@ def ZoeD_NK(pretrained=False, midas_model_type="DPT_BEiT_L_384", config_mode="in
     """ZoeDepthNK model. This is the version of ZoeDepth that has two metric heads and uses a learned router to route to experts.
     Args:
         pretrained (bool): If True, returns a model pre-trained on NYU-Depth-V2
-        midas_model_type (str): Midas model type. Should be one of the models as listed in torch.hub.list("intel-isl/MiDaS"). Default: DPT_BEiT_L_384
+        midas_model_type (str): Midas model type. Should be one of the models as listed in torch.hub.list("aroop/MiDaS"). Default: DPT_BEiT_L_384
     
     Keyword Args:
         **kwargs: Additional arguments to pass to the model
